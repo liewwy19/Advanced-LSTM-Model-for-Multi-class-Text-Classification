@@ -20,6 +20,8 @@ Often the categorization of the articles is conduced manually and retrospectivel
 thus, causing the waste of time and resources due to this arduous task.
 ## Data Set
 Dataset used for training and validation can be obtain from [Susan Li's Github page](https://github.com/susanli2016) @ https://github.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial/blob/master/bbc-text.csv
+
+The training dataset is quite balance as each of the category contributed between 17%-23% each.
 ## Run Locally
 
 Clone the project
@@ -89,6 +91,11 @@ The model able to achieve accuracy of more than 90% and average f1-score of 0.91
 
 
 
+## Future Improvement
+
+    1. Apply more advanced "Word Normalization" techniques like Stemming and Lemmatization
+    2. Compile more training data
+    3. Include data from more variety of sources
 ## Contributing
 
 This project welcomes contributions and suggestions. 
