@@ -30,6 +30,20 @@ Clone the project
   git clone https://github.com/liewwy19/Advanced-LSTM-Model-for-Multi-class-Text-Classification.git
 ```
 
+I included a deploy.py file in this repository as a simple model deployment demo. Feel free to edit the file and play around with the model.
+```bash
+folder structure
+  |
+  |--- saved_models                 # folder with all the related saved models, and tokenizer
+  |--- README.md                    # this readme file
+  |--- chart_tensorboard_acc.png    # epochs accuracy chart generated using chart_tensorboard
+  |--- chart_tensorboard_loss.png   # epochs loss chart generated using chart_tensorboard
+  |--- confusion_matrix.png         # confunsion matrix diagram
+  |--- deploy.py                    # demo file to show model deployment
+  |--- model.png                    # model architecture
+  |--- multi_class_text_classification.py   # main Python project file 
+```
+
 
 
 ## Methodology
