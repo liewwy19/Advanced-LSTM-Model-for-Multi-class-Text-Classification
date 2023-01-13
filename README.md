@@ -4,9 +4,9 @@
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 
-
 ## Summary
 This project implement advanced NLP using Long short-term memory (LSTM) for Multi-class text classification in python.
+
 ## Abstract
 Text documents are essential as they are one of the richest sources of data for 
 businesses. Text documents often contain crucial information which might shape 
@@ -18,10 +18,12 @@ filtering of the articles into different categories is required.
 
 Often the categorization of the articles is conduced manually and retrospectively; 
 thus, causing the waste of time and resources due to this arduous task.
+
 ## Data Set
 Dataset used for training and validation can be obtain from [Susan Li's Github page](https://github.com/susanli2016) @ https://github.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial/blob/master/bbc-text.csv
 
 The training dataset is quite balance as each of the category contributed between 17%-23% each.
+
 ## Run Locally
 
 Clone the project
@@ -43,7 +45,6 @@ folder structure
   |--- model.png                    # model architecture
   |--- multi_class_text_classification.py   # main Python project file 
 ```
-
 
 
 ## Methodology
@@ -80,6 +81,7 @@ folder structure
         + one hot encoder model
         + tokenizer
     + perform prediction with unseen data
+    
 ## The Model
 
 ![](https://github.com/liewwy19/Advanced-LSTM-Model-for-Multi-class-Text-Classification/blob/main/model.png?raw=True)
@@ -94,6 +96,7 @@ By reviewing the training dataset, I do notice and agree that sample text for bo
 I would also strongly suggest to collect more sport related text from different background or sport types. The high precision score for sport category might be due to training data too specific to certain sport type. 
 
 ![](https://github.com/liewwy19/Advanced-LSTM-Model-for-Multi-class-Text-Classification/blob/main/confusion_matrix.png?raw=True)
+
 ## Results
 
 #### Unseen Text:
@@ -107,8 +110,6 @@ I would also strongly suggest to collect more sport related text from different 
 #### Predicted Category:
 
     'Sport'
-
-
 
 
 ## Future Improvement
